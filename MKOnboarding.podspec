@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'mariokovacevic' => 'mariofilk@gmail.com' }
     s.source           = { :git => 'https://github.com/mariokovacevic/MKOnboarding.git', :tag => s.version }
-    s.platform         = :ios, "9.3"
+    s.platform         = :ios, '9.0'
     s.source_files     = 'MKOnboarding/Classes/*.swift'
     s.frameworks       = 'UIKit'
     s.swift_version    = '4.0'

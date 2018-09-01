@@ -1,3 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/ooyala/ios-sdk-podspecs.git'
+
+platform :ios, '9.0'
 use_frameworks!
 
 target 'MKOnboarding_Example' do
