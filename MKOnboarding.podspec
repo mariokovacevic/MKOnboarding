@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MKOnboarding'
-    s.version          = '0.1.0'
+    s.version          = '1.0.0'
     s.summary          = 'MKOnboarding is a simple onboarding library.'
     s.homepage         = 'https://github.com/mariokovacevic/MKOnboarding'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
