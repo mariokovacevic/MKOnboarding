@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MKOnboardingViewController: UIViewController {
+public class MKOnboardingViewController: UIViewController {
     
     // MARK: - UIControls
     let backgroundImageView: UIImageView = {
@@ -57,7 +57,7 @@ class MKOnboardingViewController: UIViewController {
         self.descriptionTextView.text   = onboardingItem.description
     }
     
-    func setupLayout() {
+    private func setupLayout() {
         
         let topImageContainerView = UIView()
         topImageContainerView.backgroundColor = .clear
@@ -85,7 +85,11 @@ class MKOnboardingViewController: UIViewController {
         self.descriptionTextView.rightAnchor.constraint(equalTo: self.view.rightAnchor, constant: -24).isActive = true
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+}
+
+extension UIColor {
+    static var mainPink = UIColor(red: 84/255, green: 162/255, blue: 173/255, alpha: 1)
 }

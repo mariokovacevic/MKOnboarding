@@ -3,7 +3,8 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 osx_image: xcode7.3
-language: objective-c
+language: swift
+os: osx
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:

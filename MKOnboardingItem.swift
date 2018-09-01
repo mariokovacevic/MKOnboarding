@@ -5,7 +5,7 @@
 //  Created by Mario Kovacevic on 01/09/2018.
 //
 
-import Foundation
+import UIKit
 
 public struct MKOnboardingItem {
     public var title: String
