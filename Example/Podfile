@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'MKOnboarding_Example' do
   pod 'MKOnboarding', :path => '../'
-
-  target 'MKOnboarding_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
